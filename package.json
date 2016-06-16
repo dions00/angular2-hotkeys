@@ -1,6 +1,9 @@
 {
     "name": "ats-angular2-hotkeys",
-    "version": "0.1.6",
+    "version": "0.1.7-SNAPSHOT-us5508",
+	"publishConfig": {
+		"registry": "http://XXXXXXXXXXX:8081/nexus/content/repositories/npm-snapshots/"
+	},
     "scripts": {
         "test": "tsc && karma start",
         "prepublish": "tsc",
